@@ -8,11 +8,19 @@
   <title>Document</title>
   <link rel="stylesheet" href="./bootstraps/bootstrap.min.css">
   <style>
-    .carousel-image{
-      height: 600px;
+    .carousel-image {
+      width: 100vw;
+      height: 90vh;
       object-fit: cover;
     }
 
+    @media only screen and (max-width: 720px) {
+      .carousel-image {
+        width: 100vw;
+        height: 30vh;
+        object-fit: cover;
+      }
+    }
   </style>
 </head>
 
@@ -58,13 +66,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./image/hotal-01.jpg"  class="d-block w-100 carousel-image" alt="...">
+          <img src="./image/hotal-01.jpg" class="d-block  carousel-image" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./image/hotal-02.jpg" class="d-block w-100 carousel-image" alt="...">
+          <img src="./image/hotal-02.jpg" class="d-block carousel-image" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./image/hotal-03.jpg" class="d-block w-100 carousel-image" alt="...">
+          <img src="./image/hotal-03.jpg" class="d-block  carousel-image" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -77,6 +85,19 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+    </div>
+
+    <div class="container-fluid bg-success">
+      <div class="row pt-3 pb-3">
+        <div class="col-lg-6 col-sm-12 text-center">
+          <h1 class="text-white">Your Dream Vacation is Here</h1>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center col-sm-12">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-warning">Book A Room</button>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
