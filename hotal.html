@@ -14,12 +14,26 @@
       object-fit: cover;
     }
 
+    .show-up-image {
+      width: 30vw;
+      height: 40vh;
+      object-fit: cover;
+      border: 15px solid white;
+      border-radius: 5px;
+    }
+
     @media only screen and (max-width: 720px) {
       .carousel-image {
         width: 100vw;
         height: 30vh;
         object-fit: cover;
       }
+
+      .show-up-image {
+      width: 80vw;
+      height: 30vh;
+      object-fit: cover;
+    }
     }
   </style>
 </head>
@@ -87,6 +101,8 @@
       </button>
     </div>
 
+    <!-- booking section -->
+
     <div class="container-fluid bg-success">
       <div class="row pt-3 pb-3">
         <div class="col-lg-6 col-sm-12 text-center">
@@ -100,6 +116,66 @@
       </div>
     </div>
   </main>
+
+
+  <!-- show-up section  -->
+
+  <div class="container-fluid">
+    <div class="container border-2">
+
+      <!-- room image -01 -->
+      <div class="row pt-5 mt-3 g-4 justify-content-center">
+        <div class="col-lg-6 d-flex justify-content-end align-items-center">
+          <div>
+            <h1>Enjoy Some You-Time</h1>
+            <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-warning">Book A Room</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center show-image-section">
+          <img class="show-up-image shadow" src="./image/hotal-01.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- room image -02 -->
+      <div class="row pt-5 mt-3 g-4 row ">
+        <div class="col-lg-6 d-flex justify-content-center show-image-section order-lg-1 order-2">
+          <img class="show-up-image shadow" src="./image/hotal-01.jpg" alt="">
+        </div>
+        <div class="col-lg-6 d-flex justify-content-end align-items-center order-lg-2 order-1">
+          <div>
+            <h1>Enjoy Some You-Time</h1>
+            <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-warning">Book A Room</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- room image -03 -->
+      <div class="row pt-5 mt-3 g-4">
+        <div class="col-lg-6 d-flex justify-content-end align-items-center">
+          <div>
+            <h1>Enjoy Some You-Time</h1>
+            <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-warning">Book A Room</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center show-image-section">
+          <img class="show-up-image shadow" src="./image/hotal-01.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
 
